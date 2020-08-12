@@ -35,6 +35,8 @@ import { SupportComponent } from './support/support.component';
 import { Footer2Component } from './footer2/footer2.component';
 import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.component';
 
+import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
+
 @NgModule({
    declarations: [
       AppComponent,
@@ -66,13 +68,17 @@ import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.compone
       LeafletModule,
       AgmCoreModule.forRoot({
        apiKey: 'AIzaSyAFgM81Qz-SwfTzUsr44F51AgDj0HdN88CQ'
-     })
+     }),
+     NgxMapboxGLModule.withConfig({
+      accessToken: 'pk.eyJ1Ijoicm9iZXJ0b2JydXp6ZXNlIiwiYSI6ImNrZHB2cDZnYjB6YXczMHBhenRnYjNiNjEifQ.vRWfQN1EP8XXUWAgJsfR0A', // Optional, can also be set per map (accessToken input of mgl-map)
+      geocoderAccessToken: 'pk.eyJ1Ijoicm9iZXJ0b2JydXp6ZXNlIiwiYSI6ImNrZHB2cDZnYjB6YXczMHBhenRnYjNiNjEifQ.vRWfQN1EP8XXUWAgJsfR0A'
+    })
 
    ],
    providers: [
       MenuItems,
       PageTitleService,
-      ChkService
+      ChkService,
    ],
    bootstrap: [AppComponent]
 })

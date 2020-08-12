@@ -32,10 +32,10 @@
 </div>
 <div class="col-sm-12 col-md-6 col-lg-8">
    <!-- Google Map -->
-   <div class="google-maps" style="height: 450px">
+   <div class="google-maps border-rad" style="height: 450px">
       <div class="mapouter">
          <div class="gmap_canvas">
-           <app-map></app-map>
+            <mgl-map [style]="'mapbox://styles/mapbox/streets-v11'" [zoom]="[12]" [center]="[12.5642717, 41.9127761]"> </mgl-map>
          </div>
       </div>
    </div>

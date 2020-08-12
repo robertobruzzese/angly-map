@@ -42,7 +42,8 @@ import { Testimonial2Component } from './testimonial/testimonial2/testimonial2.c
 import { ArchiveComponent } from './list/archive/archive.component';
 import { AboutAuthorComponent } from './aboutAuthor/aboutAuthor.component';
 import { FooterLogoListComponent } from './footerLogoList/footerLogoList.component'
-import { MapComponent } from '../map/map.component';
+
+import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
 
 @NgModule({
   imports: [
@@ -53,6 +54,10 @@ import { MapComponent } from '../map/map.component';
     SlickCarouselModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyD4y2luRxfM8Q8yKHSLdOOdNpkiilVhD9k'
+    }),
+    NgxMapboxGLModule.withConfig({
+      accessToken: 'pk.eyJ1Ijoicm9iZXJ0b2JydXp6ZXNlIiwiYSI6ImNrZHB2cDZnYjB6YXczMHBhenRnYjNiNjEifQ.vRWfQN1EP8XXUWAgJsfR0A', // Optional, can also be set per map (accessToken input of mgl-map)
+      geocoderAccessToken: 'pk.eyJ1Ijoicm9iZXJ0b2JydXp6ZXNlIiwiYSI6ImNrZHB2cDZnYjB6YXczMHBhenRnYjNiNjEifQ.vRWfQN1EP8XXUWAgJsfR0A'
     })
   ],
   declarations: [
@@ -93,7 +98,6 @@ import { MapComponent } from '../map/map.component';
     ArchiveComponent,
     AboutAuthorComponent,
     FooterLogoListComponent,
-    MapComponent
   ],
   exports:[
     ContactComponent,
