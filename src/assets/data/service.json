@@ -1,0 +1,34 @@
+{
+   "data":[
+      {
+        "icon":{
+          "name":"ion-ios-bulb",
+          "color":"text-warning"
+        },
+        "title":" Innovative Solutions ",
+        "content":"Help you to find the most innovative solutions for your technical environment.  Study, Analyse, Design, Implement and Realize, Delivery. ",
+        "link":"javascript:void(0)",
+        "btnBgClass": "btn-outline-warning"
+      },
+      {
+        "icon":{
+          "name":"ion-ios-infinite",
+          "color":"text-primary"
+        },
+        "title":" Flexibility ",
+        "content":"Customizing  the most innovative IT solutions to your personal needs. Continuous evolution, scalability, innovation, architectural design at the most convenient terms.",
+        "link":"javascript:void(0)",
+        "btnBgClass": "btn-outline-primary"
+      },
+      {
+        "icon":{
+          "name":"ion-ios-flash",
+          "color":"text-info"
+        },
+        "title":" Technological Transfer ",
+        "content":"Technology transfer and training, technological diffusion of solutions, customer participation and understanding of the technical solutions undertaken.",
+        "link":"javascript:void(0)",
+        "btnBgClass": "btn-outline-info"
+      }
+   ]
+}

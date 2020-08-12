@@ -1,0 +1,32 @@
+{
+   "data":[
+      {
+         "title":"Simply Awesome Team",
+         "avatar":"assets/img/1-team.jpg",
+         "name":"Jeremy Chavez",
+         "type":"Web Developer",
+         "content":"I know and am skilled on all web technologies, java, angular, php, rest, api, seo, accessibility, usability, front end and back end."
+      },
+       {
+         "title":"Always go with this team",
+         "avatar":"assets/img/2-team.jpg",
+         "name":"James",
+         "type":"Ethical Hacker",
+         "content":"I can perform pen testing of a site, password cracking and guessing, scanning, enumeration, footprinting. I offer wireless advice and hardware hacking."
+      },
+       {
+         "title":"Great team...love it",
+         "avatar":"assets/img/3-team.jpg",
+         "name":"Max",
+         "type":"Internet of Things Expert",
+         "content":"My expertise is to design and implement solutions for smart agriculture, smart cities, and low cost solutions to identify, monitor, control, protect, actuate."
+      },
+       {
+         "title":"No worry with this Team",
+         "avatar":"assets/img/2-team.jpg",
+         "name":"Ela Saunders",
+         "type":"Ethical Hacker",
+         "content":"I can perform pen testing of a site, password cracking and guessing, scanning, enumeration, footprinting. I offer wireless advice and hardware hacking."
+      }
+   ]
+}

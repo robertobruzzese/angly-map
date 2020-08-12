@@ -1,0 +1,23 @@
+{
+	"data":[
+		{
+			"value":"(39) 351 933 0207",
+			"heading":"Phone",
+			"img":"fa fa-phone",
+			"title":"Call Us"
+		},
+
+		{
+			"value":"customercarerome@gmail.com",
+			"heading":"Mail",
+			"img":"fa fa-envelope-o",
+			"title":"Send Us Mail"
+		},
+		{
+			"value":"00155, Colli Aniene , Tiburtina, Roma",
+			"heading":"Address",
+			"img":"fa fa-location-arrow",
+			"title":"Address"
+		}
+	]
+}

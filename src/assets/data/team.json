@@ -1,0 +1,22 @@
+{
+  "data":[
+    {
+      "image_path":"./assets/img/1-team.jpg",
+      "name":"Jeremy Chavez",
+      "type":"Web Developer",
+      "content":"I know and I am skilled on all web technologies, java, angular, php languages, rest, wsdl techniques, seo and positioning, accessibility, usability, front and back end."
+    },
+    {
+      "image_path":"./assets/img/2-team.jpg",
+      "name":"James",
+      "type":"Ethical Hacker",
+      "content":"I can perform pen testing of a site, password cracking and guessing, scanning, enumeration, footprinting. I offer wireless advice and hardware hacking."
+    },
+    {
+      "image_path":"./assets/img/3-team.jpg",
+      "name":"Eula Saunders",
+      "type":"Internet of Things Expert",
+      "content":"My expertise is to design and implement solutions for smart agriculture, smart cities, and low cost solutions to identify, monitor, control, protect, actuate."
+    }
+  ]
+}

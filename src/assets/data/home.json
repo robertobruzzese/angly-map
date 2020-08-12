@@ -1,0 +1,35 @@
+{
+  "data":{
+      "video_content":{
+         "heading":"How It Works",
+         "short_content":"Our work is made available in all countries ,  all over the world and is almost always a turnkey project.",
+         "content":[
+            "You send detailed message in the contact form.",
+            "You will be contacted and details be discussed.",
+            "You will receive a quote.",
+            "You will pay with a custom payment plan."
+         ],
+         "video_link": "https://www.youtube.com/watch?v=hw2smSOJIv4"
+      },
+      "mobile_featured":[
+         {
+            "icon_path":"ion-ios-crop",
+            "icon_class":"text-info",
+            "title":"Web Technologies",
+            "content":"Web & Mobile App Development, Seo, XML, SOA, Social, Usability, Object Programming, Indexing."
+         },
+         {
+            "icon_path":"ion-ios-color-wand",
+            "icon_class":"text-success",
+            "title":"Cybersecurity",
+            "content":"Malware Analysis, Incident Forensic, Ethical Hacking, Compromised Systems, Log Analysis, Virtual Machines."
+         },
+         {
+            "icon_path":"ion-ios-albums",
+            "icon_class":"text-warning",
+            "title":"Internet of Things",
+            "content":"Wireless Communications, Hardware Platforms, Web Communication & Cloud platforms , IOT for Agricolture and Smart Cities."
+         }
+      ]
+  }
+}
